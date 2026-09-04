@@ -15,8 +15,7 @@ Three flip-flops are used to store the 3-bit state of the counter:
 - A **D flip-flop** for the middle bit
 - A **JK flip-flop** for the MSB
 
-- **Switch = 1** → Count Up
-- **Switch = 0** → Count Down
+**Switch = 1** → Count Up, **Switch = 0** → Count Down
 
 Combinational logic generates the required flip-flop input signals for both the count-up and count-down sequences.
 
