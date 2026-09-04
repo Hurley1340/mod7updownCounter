@@ -4,11 +4,11 @@
 
 Create an up/down counter using both **JK and D flip-flops**. The counter must have both count-up and count-down functionality controlled by a switch, and must skip state 4 (`100`) in both count directions.
 
-This project implements a **3-bit synchronous mod-7 up/down counter** with state 4 (`100`) excluded.
 
 ## The Design
 
-This is a synchronous counter. On each clock pulse, the circuit transitions to the next valid state while skipping `100`.
+**This is a synchronous 3-bit synchronous mod-7 up/down counter with state 4 (`100`) excluded**
+On each clock pulse, the circuit transitions to the next valid state while skipping `100`.
 Three flip-flops are used to store the 3-bit state of the counter:
 
 - A **JK flip-flop** for the LSB
