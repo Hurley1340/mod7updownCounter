@@ -15,11 +15,11 @@ Three flip-flops are used to store the 3-bit state of the counter:
 - A **D flip-flop** for the middle bit
 - A **JK flip-flop** for the MSB
 
-**Switch = 1** → Count Up, **Switch = 0** → Count Down
-
 Combinational logic generates the required flip-flop input signals for both the count-up and count-down sequences.
 
 A **74LS157 quad 2-to-1 multiplexer** uses the direction-control switch to select between the up-count and down-count logic. The selected signals are then applied to the flip-flops, determining the next state of the counter.
+
+**Switch = 1** → Count Up, **Switch = 0** → Count Down
 
 ## Components
 
