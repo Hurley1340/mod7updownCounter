@@ -8,7 +8,7 @@ Create an up/down counter using both **JK and D flip-flops**. The counter must h
 ## The Design
 
 **This is a synchronous 3-bit synchronous mod-7 up/down counter with state 4 (`100`) excluded** <br>
-On each clock pulse, the circuit transitions to the next valid state while skipping `100`.
+On each clock pulse, the circuit transitions to the next valid state while skipping `100`. <br>
 Three flip-flops are used to store the 3-bit state of the counter:
 
 - A **JK flip-flop** for the LSB
