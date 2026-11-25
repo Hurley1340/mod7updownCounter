@@ -21,6 +21,10 @@ A **74LS157 quad 2-to-1 multiplexer** uses the direction-control switch to selec
 
 **Switch = 1** → Count Up, **Switch = 0** → Count Down
 
+### Counter Demonstration
+
+https://github.com/user-attachments/assets/e7fb1a91-12e8-4f74-839d-99cb83c10eb0
+
 ## Components
 
 - 2 × JK Flip-Flops (`74LS73`)
